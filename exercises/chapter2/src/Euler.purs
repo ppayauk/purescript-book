@@ -1,8 +1,11 @@
 module Euler where
 
 import Prelude
-import Data.List (range, filter)
+
+import Data.Array.NonEmpty (intercalate)
 import Data.Foldable (sum)
+import Data.List (range, filter)
+import Math (sqrt, pow)
 
 ns n = range 0 (n - 1)
 
